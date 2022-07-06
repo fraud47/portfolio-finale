@@ -1,21 +1,26 @@
 module.exports = {
-  content: ['./*.html'],
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}"
+  ],
   theme: {
-    screens: {
-      sm: '480px',
-      md: '768px',
-      lg: '976px',
-      xl: '1440px',
-    },
-  
+   
     extend: {
-      colors: {
-        fblue: '#0F77C6'
+      fontFamily: {
+        'kanit': ['Kanit', 'sans-serif']
       },
-      
+      colors: {
+        "criativo-green": "#61D3B9",
+        "criativo-black": "#151515",
+      }
     },
-    container:{
+    container: {
       center: true,
+      padding: "1rem",
+      screens: {
+        lg: "1124px",
+        xl: "1124px",
+        "2xl": "1124px",
+      }
     }
   },
   plugins: [],
