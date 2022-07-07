@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/portfolio-finale/static/css/main.092c13a4.css",
+    "main.js": "/portfolio-finale/static/js/main.221d0bc3.js",
+    "static/media/wallpaper1.jpg": "/portfolio-finale/static/media/wallpaper1.8090e61ca2fa6309bd5a.jpg",
+    "index.html": "/portfolio-finale/index.html",
+    "main.092c13a4.css.map": "/portfolio-finale/static/css/main.092c13a4.css.map",
+    "main.221d0bc3.js.map": "/portfolio-finale/static/js/main.221d0bc3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.092c13a4.css",
+    "static/js/main.221d0bc3.js"
+  ]
+}
