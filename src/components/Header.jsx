@@ -1,4 +1,4 @@
-import { ImMenu } from "react-icons/im";
+import { ImMenu, ImClose } from "react-icons/im";
  import { useState } from 'react';
 
 
@@ -27,11 +27,11 @@ const Header = () => {
      
 
     </nav>
-    {Open?<ul className="sm:hidden items-center  py-8 gap-12 uppercase text-white text-lg px-3 ">
+    <ul className={Open?"sm:hidden items-center  py-8 gap-12 uppercase text-white text-lg px-3  ease-in duration-300 ":"sm:hidden items-center  py-8 gap-12 uppercase text-white text-lg px-3 top-[-100%]  ease-in duration-300"}>
             <li className="" >About</li>
             <li className="">Contact Me.</li>
             <li className="">resume</li>
-        </ul>:null}
+        </ul>
  
 
     </header>
